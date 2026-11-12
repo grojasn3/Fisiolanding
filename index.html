@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gabriel Rojas — Kinesiólogo Deportivo | Programa 3 meses para deportistas 30+</title>
-<meta name="description" content="Deja de jugar con miedo. Programa de 3 meses para deportistas 30+ lesionados: recupera tu lesión, gana fuerza y velocidad, baja tu % de grasa y vuelve a disfrutar tu deporte.">
+<meta name="description" content="Deja de jugar con miedo. Acompañamiento de salud de 3 meses con kinesiólogos y nutricionistas para deportistas 30+ lesionados. Reembolsable por Isapre con orden médica.">
 <meta property="og:title" content="Deja de jugar con miedo — Programa 3 meses para deportistas 30+">
 <meta property="og:description" content="Lesión, kilos de más, cero confianza. 12 semanas para volver a tu deporte más fuerte, rápido y liviano. Kinesiólogo deportivo Gabriel Rojas.">
 <meta property="og:type" content="website">
@@ -446,6 +446,107 @@
     font-family:'Oswald',sans-serif;
   }
 
+
+  /* ---------------- ISAPRE PILL (hero) ---------------- */
+  .isapre-pill{
+    display:inline-flex; align-items:center; gap:8px;
+    background:rgba(242,235,221,0.12); border:1px solid rgba(240,177,104,0.5);
+    color:#fff; font-size:13px; font-weight:600;
+    padding:8px 14px; border-radius:30px; margin-bottom:20px;
+  }
+  .isapre-pill b{ color:var(--amber-soft); }
+
+  /* ---------------- HERRAMIENTAS ---------------- */
+  .tools{ background:var(--ink); color:#fff; padding:60px 24px 56px; }
+  .tools .kicker{
+    font-family:'Oswald',sans-serif; font-size:11.5px; letter-spacing:3px;
+    color:var(--amber-soft); font-weight:600; margin-bottom:14px;
+  }
+  .tools h2{ font-size:26px; line-height:1.2; color:#fff; margin-bottom:14px; }
+  .tools .lead{ font-size:15px; line-height:1.6; color:var(--cream-dim); margin-bottom:26px; }
+  .team{
+    display:flex; gap:10px; margin-bottom:30px;
+  }
+  .team > div{
+    flex:1; background:var(--ink-soft); border:1px solid rgba(242,235,221,0.12);
+    border-radius:10px; padding:14px 12px; text-align:center;
+  }
+  .team .ic{ font-size:24px; margin-bottom:6px; }
+  .team .t{ font-family:'Oswald',sans-serif; font-size:14px; letter-spacing:.5px; text-transform:uppercase; }
+  .team .d{ font-size:12px; color:var(--cream-dim); margin-top:4px; line-height:1.4; }
+  .team .plus{ flex:0 0 auto; align-self:center; background:none; border:none; padding:0;
+    font-family:'Oswald',sans-serif; font-size:22px; color:var(--amber-soft); }
+  .hub{ width:100%; height:auto; margin:4px 0 34px; }
+  .tool-block{ border-top:1px solid rgba(242,235,221,0.12); padding:28px 0 6px; }
+  .tool-block .num{ font-family:'Oswald',sans-serif; font-size:13px; color:var(--amber); font-weight:700; margin-bottom:6px; }
+  .tool-block h3{ font-size:20px; color:#fff; margin-bottom:8px; }
+  .tool-block p{ font-size:14.5px; line-height:1.6; color:var(--cream-dim); margin-bottom:18px; }
+  .evals{ display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:10px; }
+  .eval{ background:var(--ink-soft); border-radius:10px; padding:14px 8px; text-align:center;
+    border-top:3px solid var(--moss); }
+  .eval:nth-child(2){ border-top-color:var(--amber); }
+  .eval:nth-child(3){ border-top-color:var(--rust); }
+  .eval .ic{ font-size:22px; margin-bottom:6px; }
+  .eval .t{ font-family:'Oswald',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:.5px; }
+  .eval .d{ font-size:11.5px; color:var(--cream-dim); margin-top:4px; line-height:1.35; }
+
+  .phone{
+    width:230px; margin:6px auto 22px; background:#0b0a08; border-radius:30px;
+    padding:12px; border:2px solid #3a342a; box-shadow:0 18px 40px rgba(0,0,0,.5);
+  }
+  .phone .screen{ background:var(--cream); border-radius:20px; padding:16px 14px 18px; color:var(--ink); }
+  .phone .notch{ width:70px; height:6px; background:#3a342a; border-radius:6px; margin:0 auto 10px; }
+  .app-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+  .app-top .wk{ font-family:'Oswald',sans-serif; font-size:13px; text-transform:uppercase; }
+  .app-top .day{ font-size:10.5px; background:var(--ink); color:var(--cream); padding:3px 8px; border-radius:10px; }
+  .app-sec{ font-family:'Oswald',sans-serif; font-size:10.5px; letter-spacing:1.5px; color:var(--rust);
+    text-transform:uppercase; margin:10px 0 6px; }
+  .app-row{ display:flex; align-items:center; gap:8px; background:#fff; border-radius:8px;
+    padding:8px 9px; margin-bottom:6px; font-size:11.5px; font-weight:600; }
+  .app-row .ck{ width:16px; height:16px; border-radius:50%; flex-shrink:0; border:2px solid var(--moss);
+    display:flex; align-items:center; justify-content:center; font-size:9px; color:#fff; }
+  .app-row.done .ck{ background:var(--moss); }
+  .app-row .rx{ margin-left:auto; color:#7a705e; font-weight:500; font-size:10.5px; }
+  .app-bar{ height:7px; background:var(--cream-dim); border-radius:6px; overflow:hidden; margin-top:10px; }
+  .app-bar span{ display:block; height:100%; width:72%; background:var(--amber); border-radius:6px; }
+  .app-cap{ font-size:10.5px; color:#7a705e; margin-top:5px; text-align:right; }
+
+  .modes{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:10px; }
+  .mode{ background:var(--ink-soft); border:1px solid rgba(242,235,221,0.12); border-radius:10px; padding:16px 14px; }
+  .mode .ic{ font-size:22px; margin-bottom:6px; }
+  .mode .t{ font-family:'Oswald',sans-serif; font-size:15px; text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px; }
+  .mode .d{ font-size:12.5px; color:var(--cream-dim); line-height:1.45; }
+  .mode-all{ background:var(--amber); color:var(--ink); border-radius:10px; padding:12px 14px;
+    font-size:13px; font-weight:700; text-align:center; }
+  .personal{
+    margin-top:30px; border:2px solid var(--amber); border-radius:10px; padding:18px;
+    font-family:'Oswald',sans-serif; font-size:18px; text-transform:uppercase; line-height:1.3; text-align:center;
+  }
+  .personal em{ font-style:normal; color:var(--amber-soft); }
+
+  /* ---------------- ISAPRE ---------------- */
+  .isapre{ background:var(--rust); color:#fff; padding:56px 24px 52px; }
+  .isapre .badge{
+    display:inline-block; background:#fff; color:var(--rust);
+    font-family:'Oswald',sans-serif; font-weight:700; font-size:13px; letter-spacing:2px;
+    padding:7px 14px; border-radius:4px; margin-bottom:18px; text-transform:uppercase;
+  }
+  .isapre h2{ font-size:31px; line-height:1.1; margin-bottom:14px; }
+  .isapre .lead{ font-size:15px; line-height:1.6; color:rgba(255,255,255,.88); margin-bottom:28px; }
+  .isapre-steps{ list-style:none; margin-bottom:24px; }
+  .isapre-steps li{ display:flex; gap:14px; align-items:center; background:rgba(0,0,0,.16);
+    border-radius:10px; padding:14px 16px; margin-bottom:6px; font-size:14.5px; line-height:1.45; }
+  .isapre-steps .n{ font-family:'Oswald',sans-serif; font-size:24px; font-weight:700; color:#fff;
+    width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,.18);
+    display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .isapre-steps .arrow{ background:none; padding:0 0 0 26px; margin:0 0 6px; font-size:16px; color:rgba(255,255,255,.7); }
+  .isapre .btn-light{
+    display:flex; justify-content:center; background:#fff; color:var(--rust);
+    font-family:'Oswald',sans-serif; font-weight:700; font-size:14.5px; text-transform:uppercase;
+    letter-spacing:.5px; padding:16px; border-radius:4px; text-decoration:none;
+  }
+  .isapre .fine{ font-size:12px; color:rgba(255,255,255,.72); margin-top:14px; line-height:1.5; text-align:center; }
+
   @media (min-width:521px){
     .hero h1{ font-size:46px; }
   }
@@ -461,7 +562,8 @@
     <div class="hero-content">
       <div class="eyebrow">Gabriel Rojas · Kinesiólogo Deportivo</div>
       <h1>Deja de jugar con <em>miedo</em>.</h1>
-      <p>Lesión, kilos de más, cero confianza. En un programa de 3 meses te devuelvo a tu deporte más fuerte, más rápido y más liviano. Para deportistas 30+, sea cual sea tu disciplina.</p>
+      <p>Lesión, kilos de más, cero confianza. En 3 meses, con un equipo de kinesiólogos y nutricionistas, te devolvemos a tu deporte más fuerte, más rápido y más liviano. Para deportistas 30+, sea cual sea tu disciplina.</p>
+      <div class="isapre-pill">✓ <span><b>Reembolsable por Isapre</b> con orden médica</span></div><br>
       <a href="https://calendly.com/grojasn3/30min" target="_blank" rel="noopener" class="btn-primary">Quiero mi evaluación gratuita →</a>
     </div>
   </section>
@@ -506,7 +608,7 @@
     <div class="service-card s3">
       <span class="stag">03 · Alimentación</span>
       <h3>Menos % de grasa, más energía</h3>
-      <p>Hábitos de alimentación simples y sostenibles para bajar tu % de grasa. Menos peso que cargar = menos estrés en tus articulaciones y más velocidad en tu deporte.</p>
+      <p>Plan de alimentación guiado por nutricionista, simple y sostenible, para bajar tu % de grasa. Menos peso que cargar = menos estrés en tus articulaciones y más velocidad en tu deporte.</p>
     </div>
 
     <div class="service-card s4">
@@ -534,7 +636,7 @@
       </div>
       <div class="step">
         <div class="step-tag">02</div>
-        <div><h3>Mes 1 · Recuperar</h3><p>Tratamos la lesión, sacamos el dolor y construimos la base de movilidad y fuerza. Ajustamos tu alimentación desde el día uno.</p></div>
+        <div><h3>Mes 1 · Recuperar</h3><p>Evaluación física, de alimentación y de hábitos. Tratamos la lesión, sacamos el dolor y construimos la base de movilidad y fuerza.</p></div>
       </div>
       <div class="step">
         <div class="step-tag">03</div>
@@ -545,6 +647,107 @@
         <div><h3>Mes 3 · Competir</h3><p>Velocidad, agilidad y gestos de tu deporte. Vuelves a competir con pruebas medibles — evidencia, no solo la sensación de "estar mejor".</p></div>
       </div>
     </div>
+  </section>
+
+  <!-- HERRAMIENTAS -->
+  <section class="tools">
+    <div class="kicker">Tu acompañamiento</div>
+    <h2>Un equipo de salud trabajando sobre TU caso.</h2>
+    <p class="lead">Esto no es una rutina descargada de internet. Es un acompañamiento de salud personalizado, guiado por kinesiólogos y nutricionistas, desde el día 1.</p>
+
+    <div class="team">
+      <div><div class="ic">🩺</div><div class="t">Kinesiólogo</div><div class="d">Lesión, fuerza y retorno al deporte</div></div>
+      <div class="plus">+</div>
+      <div><div class="ic">🥗</div><div class="t">Nutricionista</div><div class="d">Alimentación y % de grasa</div></div>
+    </div>
+
+    <svg class="hub" viewBox="0 0 360 330" role="img" aria-label="Esquema del acompañamiento: en el centro tú, conectado a evaluaciones, app móvil, sesiones presenciales y sesiones online">
+      <g stroke="#d98a34" stroke-width="2" stroke-dasharray="5 5" opacity=".7">
+        <line x1="180" y1="165" x2="75" y2="62"/><line x1="180" y1="165" x2="285" y2="62"/>
+        <line x1="180" y1="165" x2="75" y2="268"/><line x1="180" y1="165" x2="285" y2="268"/>
+      </g>
+      <circle cx="180" cy="165" r="62" fill="none" stroke="#f0b168" stroke-width="1" opacity=".35"/>
+      <circle cx="180" cy="165" r="48" fill="#d98a34"/>
+      <text x="180" y="162" text-anchor="middle" font-family="Oswald,sans-serif" font-weight="700" font-size="26" fill="#14120f">TÚ</text>
+      <text x="180" y="182" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" font-size="9.5" fill="#14120f">100% personal</text>
+      <g font-family="Oswald,sans-serif" text-anchor="middle">
+        <rect x="10" y="22" width="130" height="78" rx="10" fill="#5c6b3f"/>
+        <text x="75" y="52" font-size="20">📋</text>
+        <text x="75" y="72" font-size="14" font-weight="700" fill="#fff">EVALUACIONES</text>
+        <text x="75" y="88" font-size="9" fill="#e7dcc4" font-family="Inter,sans-serif">Física · Alimentación · Hábitos</text>
+        <rect x="220" y="22" width="130" height="78" rx="10" fill="#211d17" stroke="#f0b168"/>
+        <text x="285" y="52" font-size="20">📱</text>
+        <text x="285" y="72" font-size="14" font-weight="700" fill="#fff">APP MÓVIL</text>
+        <text x="285" y="88" font-size="10" fill="#e7dcc4" font-family="Inter,sans-serif">Plan de fuerza + hábitos</text>
+        <rect x="10" y="230" width="130" height="78" rx="10" fill="#211d17" stroke="#f0b168"/>
+        <text x="75" y="260" font-size="20">🏋️</text>
+        <text x="75" y="280" font-size="14" font-weight="700" fill="#fff">PRESENCIAL</text>
+        <text x="75" y="296" font-size="10" fill="#e7dcc4" font-family="Inter,sans-serif">Privadas en gimnasio</text>
+        <rect x="220" y="230" width="130" height="78" rx="10" fill="#c4502a"/>
+        <text x="285" y="260" font-size="20">💻</text>
+        <text x="285" y="280" font-size="14" font-weight="700" fill="#fff">ONLINE</text>
+        <text x="285" y="296" font-size="10" fill="#f2ebdd" font-family="Inter,sans-serif">Sesiones en vivo</text>
+      </g>
+    </svg>
+
+    <div class="tool-block">
+      <div class="num">01</div>
+      <h3>Te evaluamos completo desde el día 1</h3>
+      <p>No partimos adivinando. Evaluamos tu cuerpo, tu alimentación y tus hábitos para mejorar tu calidad de vida durante todo el proceso.</p>
+      <div class="evals">
+        <div class="eval"><div class="ic">💪</div><div class="t">Física</div><div class="d">Lesión, fuerza y movilidad</div></div>
+        <div class="eval"><div class="ic">🍽️</div><div class="t">Alimentación</div><div class="d">Qué comes y cómo bajar % de grasa</div></div>
+        <div class="eval"><div class="ic">🌙</div><div class="t">Hábitos</div><div class="d">Sueño, energía y rutina diaria</div></div>
+      </div>
+    </div>
+
+    <div class="tool-block">
+      <div class="num">02</div>
+      <h3>Tu plan, en tu celular</h3>
+      <p>En mi app tienes tu entrenamiento de fuerza y los hábitos del día. Abres, haces y marcas. Te sientes seguro y claro de lo que tienes que hacer para mejorar.</p>
+      <div class="phone"><div class="screen">
+        <div class="notch"></div>
+        <div class="app-top"><span class="wk">Semana 3</span><span class="day">Día 2</span></div>
+        <div class="app-sec">Fuerza</div>
+        <div class="app-row done"><span class="ck">✓</span>Sentadilla búlgara<span class="rx">3×8</span></div>
+        <div class="app-row done"><span class="ck">✓</span>Puente isquios<span class="rx">3×10</span></div>
+        <div class="app-row"><span class="ck"></span>Aceleraciones<span class="rx">6×20m</span></div>
+        <div class="app-sec">Hábitos</div>
+        <div class="app-row done"><span class="ck">✓</span>Proteína en cada comida</div>
+        <div class="app-row"><span class="ck"></span>Dormir 7 horas</div>
+        <div class="app-bar"><span></span></div>
+        <div class="app-cap">Semana completada 72%</div>
+      </div></div>
+    </div>
+
+    <div class="tool-block">
+      <div class="num">03</div>
+      <h3>Entrena como te acomode</h3>
+      <p>Además de la app, puedes sumar sesiones conmigo para entrenar en vivo:</p>
+      <div class="modes">
+        <div class="mode"><div class="ic">🏋️</div><div class="t">Presencial</div><div class="d">Sesiones privadas en gimnasio</div></div>
+        <div class="mode"><div class="ic">💻</div><div class="t">Online</div><div class="d">Sesiones en vivo por videollamada, estés donde estés</div></div>
+      </div>
+      <div class="mode-all">📱 La app te acompaña siempre, en ambas modalidades</div>
+    </div>
+
+    <div class="personal">Todo el proceso es <em>100% personalizado</em>. Tu lesión, tu deporte, tu cuerpo.</div>
+  </section>
+
+  <!-- ISAPRE -->
+  <section class="isapre">
+    <div class="badge">✓ Reembolsable por Isapre</div>
+    <h2>Tu Isapre puede devolverte parte de este proceso.</h2>
+    <p class="lead">Es un proceso de salud con kinesiólogos, así que puedes pedir reembolso a tu Isapre con una orden médica. Invertir en volver a tu deporte cuesta menos de lo que crees.</p>
+    <ul class="isapre-steps">
+      <li><span class="n">1</span><span>Pide a tu médico una <b>orden de kinesiología</b>.</span></li>
+      <li class="arrow">↓</li>
+      <li><span class="n">2</span><span>Haces tu proceso con nosotros y te entregamos la <b>documentación</b> para reembolsar.</span></li>
+      <li class="arrow">↓</li>
+      <li><span class="n">3</span><span>Solicitas el <b>reembolso</b> a tu Isapre.</span></li>
+    </ul>
+    <a href="https://calendly.com/grojasn3/30min" target="_blank" rel="noopener" class="btn-light">Pregúntame cómo hacerlo →</a>
+    <div class="fine">El monto reembolsado depende de tu plan de salud. ¿No tienes orden médica? Conversemos en la videollamada.</div>
   </section>
 
   <!-- PROOF -->
@@ -600,7 +803,7 @@
     <h2>Tu deporte te está esperando. ¿Vas a seguir jugando con miedo?</h2>
     <p>Agenda una videollamada gratuita de 30 minutos. Revisamos tu lesión, tu deporte y tu objetivo, y te digo honestamente si el programa de 3 meses es para ti.</p>
     <a href="https://calendly.com/grojasn3/30min" target="_blank" rel="noopener" class="btn-primary">📅 Agendar videollamada gratuita</a>
-    <div class="fine">Cupos limitados: trabajo con pocos deportistas a la vez para dar seguimiento real.</div>
+    <div class="fine">Reembolsable por Isapre con orden médica · Cupos limitados para dar seguimiento real.</div>
   </section>
 
   <footer>GABRIEL ROJAS — KINESIÓLOGO · @FISIO.GABO</footer>
